@@ -1,0 +1,1 @@
+cmd_/home/ino/Projects/os2019Spring/hw2/01_code/hw2_dfs.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/ino/Projects/os2019Spring/hw2/01_code/hw2_dfs.ko /home/ino/Projects/os2019Spring/hw2/01_code/hw2_dfs.o /home/ino/Projects/os2019Spring/hw2/01_code/hw2_dfs.mod.o ;  true
